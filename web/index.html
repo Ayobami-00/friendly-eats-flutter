@@ -16,6 +16,7 @@
 -->
 
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -28,37 +29,38 @@
   <link rel="apple-touch-icon" href="/icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
 
   <title>friendlyeats</title>
   <link rel="manifest" href="/manifest.json">
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
-  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
 
-  <!-- TODO: Add SDKs for Firebase products that you want to use
-       (firebase-auth.js, firebase-firestore.js, firebase-analytics.js...)
-       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.5.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.1/firebase-firestore.js"></script>
 
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
 
   <script>
     // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     var firebaseConfig = {
-      apiKey: "YoUr_RaNdOm_API_kEy",
-      authDomain: "your-project-name.firebaseapp.com",
-      databaseURL: "https://your-project-name.firebaseio.com",
-      projectId: "your-project-name",
-      storageBucket: "your-project-name.appspot.com",
-      messagingSenderId: "012345678901",
-      appId: "1:109876543210:web:r4nd0mH3xH45h",
-      measurementId: "G-S0M3V4LU3"
+      apiKey: "AIzaSyBwKM0zuL9eRNhvjNL8wV-G_fp1YQSU7pU",
+      authDomain: "friendlyeats-e5ace.firebaseapp.com",
+      databaseURL: "https://friendlyeats-e5ace.firebaseio.com",
+      projectId: "friendlyeats-e5ace",
+      storageBucket: "friendlyeats-e5ace.appspot.com",
+      messagingSenderId: "807662624633",
+      appId: "1:807662624633:web:75a1ea6436e09fd72319a8",
+      measurementId: "G-V61N9W7L2G"
     };
-
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
   </script>
 </head>
+
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
@@ -72,4 +74,5 @@
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
 </html>
